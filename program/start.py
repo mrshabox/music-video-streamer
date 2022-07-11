@@ -58,8 +58,6 @@ async def start_(client: Client, message: Message):
 
 💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
 
-🛠 [🕊.⋆𝙆𝙄𝙉𝙂༒۝꧂](https://t.me/cl_me_logesh) ** if you have any problems contact 💚**
-
 ❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -69,25 +67,18 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🕊.⋆ Basic Guide༒۝꧂", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("Cách sử dụng", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("🕊.⋆Commands༒۝꧂", callback_data="cbcmds"),
-                    InlineKeyboardButton("🕊.⋆Owner༒۝꧂", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("Commands", callback_data="cbcmds"),
+                    InlineKeyboardButton("Owner", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🕊.⋆official Group༒۝꧂", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "official Group", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🕊.⋆official channel༒۝꧂", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "official channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
-                ],
-                [
-
-       
-                    InlineKeyboardButton(
-                        "🕊.⋆source code༒۝꧂", url="https://github.com/LOGI-LAP/music-video-streamer"
-                    )
                 ],
             ]
         ),
